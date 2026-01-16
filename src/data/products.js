@@ -1,3 +1,16 @@
+import pearlNecklace1 from '../assets/pearl-necklace-1.jpg';
+import pearlNecklace2 from '../assets/pearl-necklace-2.jpg';
+import pearlNecklace3 from '../assets/pearl-necklace-3.jpg';
+import pearlNecklace4 from '../assets/pearl-necklace-4.jpg';
+import pearlNecklace5 from '../assets/pearl-necklace-5.jpg';
+import pearlNecklace6 from '../assets/pearl-necklace-6.jpg';
+import pearlNecklace7 from '../assets/pearl-necklace-7.jpg';
+import bracelet1 from '../assets/bracelet-1.jpg';
+import bracelet2 from '../assets/bracelet-2.jpg';
+import bracelet3 from '../assets/bracelet-3.jpg';
+import bracelet4 from '../assets/bracelet-4.jpg';
+import bracelet5 from '../assets/bracelet-5.jpg';
+
 /**
  * Sample Product Data
  * Replace with your actual product information
@@ -50,7 +63,7 @@ export const products = [
         name: "Classic Pearl Elegance Necklace",
         description: "Timeless white pearl necklace with elegant graduated design, perfect for any occasion",
         price: 28000,
-        image: "/src/assets/pearl-necklace-1.jpg",
+        image: pearlNecklace1,
         category: "Necklaces",
         featured: true
     },
@@ -59,7 +72,7 @@ export const products = [
         name: "Pearl Trio Collection",
         description: "Luxurious pearl jewelry set featuring necklace, bracelet, and earrings in warm cream tones",
         price: 30000,
-        image: "/src/assets/pearl-necklace-2.jpg",
+        image: pearlNecklace2,
         category: "Necklaces",
         featured: true
     },
@@ -68,7 +81,7 @@ export const products = [
         name: "Layered Pearl Statement Necklace",
         description: "Multi-strand pearl necklace with varying bead sizes for a sophisticated layered look",
         price: 29000,
-        image: "/src/assets/pearl-necklace-3.jpg",
+        image: pearlNecklace3,
         category: "Necklaces",
         featured: true
     },
@@ -77,7 +90,7 @@ export const products = [
         name: "Double Strand Pearl Necklace",
         description: "Elegant two-strand pearl necklace with classic design and lustrous finish",
         price: 27000,
-        image: "/src/assets/pearl-necklace-4.jpg",
+        image: pearlNecklace4,
         category: "Necklaces",
         featured: true
     },
@@ -86,7 +99,7 @@ export const products = [
         name: "Bold Pearl Statement Necklace",
         description: "Striking large pearl necklace with beautiful iridescent sheen and natural elegance",
         price: 29500,
-        image: "/src/assets/pearl-necklace-5.jpg",
+        image: pearlNecklace5,
         category: "Necklaces",
         featured: true
     },
@@ -95,7 +108,7 @@ export const products = [
         name: "Ombre Pearl Double Strand Necklace",
         description: "Stunning gradient pearl necklace transitioning from white to grey to black, a true statement piece",
         price: 30000,
-        image: "/src/assets/pearl-necklace-6.jpg",
+        image: pearlNecklace6,
         category: "Necklaces",
         featured: true
     },
@@ -104,7 +117,7 @@ export const products = [
         name: "Graduated Pearl Classic Necklace",
         description: "Timeless graduated pearl necklace with lustrous cream pearls, perfect for elegant occasions",
         price: 27500,
-        image: "/src/assets/pearl-necklace-7.jpg",
+        image: pearlNecklace7,
         category: "Necklaces",
         featured: true
     },
@@ -113,7 +126,7 @@ export const products = [
         name: "Marble Harmony Duo Bracelet Set",
         description: "Elegant black and white marble-style beaded bracelets, perfect for a sophisticated yin-yang aesthetic",
         price: 18000,
-        image: "/src/assets/bracelet-1.jpg",
+        image: bracelet1,
         category: "Bracelets",
         featured: true
     },
@@ -122,7 +135,7 @@ export const products = [
         name: "Royal Collection Bracelet Set",
         description: "Premium black onyx beaded bracelets with ornate crown, skull, and cross charms for a bold statement",
         price: 23000,
-        image: "/src/assets/bracelet-2.jpg",
+        image: bracelet2,
         category: "Bracelets",
         featured: true
     },
@@ -131,7 +144,7 @@ export const products = [
         name: "Crystal Luxe Bracelet Stack",
         description: "Luxurious stacked bracelets featuring black onyx, tiger eye, and sparkling crystal accents",
         price: 25000,
-        image: "/src/assets/bracelet-3.jpg",
+        image: bracelet3,
         category: "Bracelets",
         featured: true
     },
@@ -140,7 +153,7 @@ export const products = [
         name: "Emperor's Collection Bracelet Set",
         description: "Multiple stacked bracelets with tiger eye, lava stone beads, and detailed metal charms including crown and cross",
         price: 28500,
-        image: "/src/assets/bracelet-4.jpg",
+        image: bracelet4,
         category: "Bracelets",
         featured: true
     },
@@ -149,7 +162,7 @@ export const products = [
         name: "Tiger Eye Classic Bracelet",
         description: "Timeless black onyx and tiger eye beaded bracelet with silver accents for everyday elegance",
         price: 17000,
-        image: "/src/assets/bracelet-5.jpg",
+        image: bracelet5,
         category: "Bracelets",
         featured: true
     }
