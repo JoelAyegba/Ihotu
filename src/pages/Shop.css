@@ -1,0 +1,33 @@
+.shop-page {
+    padding-top: 70px;
+}
+
+.shop-hero {
+    background: linear-gradient(135deg,
+            var(--color-bg-secondary) 0%,
+            rgba(212, 165, 116, 0.1) 100%);
+    padding: var(--spacing-4xl) 0 var(--spacing-3xl);
+    text-align: center;
+}
+
+.shop-title {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-5xl);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.shop-description {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .shop-hero {
+        padding: var(--spacing-2xl) 0;
+    }
+}

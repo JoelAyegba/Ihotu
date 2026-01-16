@@ -1,0 +1,166 @@
+/**
+ * Sample Product Data
+ * Replace with your actual product information
+ */
+
+export const products = [
+
+
+    {
+        id: 3,
+        name: "Earth Tone Earrings",
+        description: "Natural stone beads in warm terracotta and sage tones",
+        price: 15000,
+        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
+        category: "Earrings",
+        featured: true
+    },
+    {
+        id: 4,
+        name: "Golden Hour Anklet",
+        description: "Delicate gold-plated beads with tiny charms",
+        price: 16500,
+        image: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=80",
+        category: "Anklets",
+        featured: false
+    },
+
+    {
+        id: 6,
+        name: "Rose Garden Necklace",
+        description: "Pink quartz and rose gold beads in a romantic design",
+        price: 24000,
+        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
+        category: "Necklaces",
+        featured: true
+    },
+
+    {
+        id: 8,
+        name: "Forest Whisper Earrings",
+        description: "Green jade beads with wooden accents",
+        price: 16000,
+        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
+        category: "Earrings",
+        featured: false
+    },
+
+    {
+        id: 10,
+        name: "Classic Pearl Elegance Necklace",
+        description: "Timeless white pearl necklace with elegant graduated design, perfect for any occasion",
+        price: 28000,
+        image: "/src/assets/pearl-necklace-1.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 11,
+        name: "Pearl Trio Collection",
+        description: "Luxurious pearl jewelry set featuring necklace, bracelet, and earrings in warm cream tones",
+        price: 30000,
+        image: "/src/assets/pearl-necklace-2.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 12,
+        name: "Layered Pearl Statement Necklace",
+        description: "Multi-strand pearl necklace with varying bead sizes for a sophisticated layered look",
+        price: 29000,
+        image: "/src/assets/pearl-necklace-3.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 13,
+        name: "Double Strand Pearl Necklace",
+        description: "Elegant two-strand pearl necklace with classic design and lustrous finish",
+        price: 27000,
+        image: "/src/assets/pearl-necklace-4.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 14,
+        name: "Bold Pearl Statement Necklace",
+        description: "Striking large pearl necklace with beautiful iridescent sheen and natural elegance",
+        price: 29500,
+        image: "/src/assets/pearl-necklace-5.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 15,
+        name: "Ombre Pearl Double Strand Necklace",
+        description: "Stunning gradient pearl necklace transitioning from white to grey to black, a true statement piece",
+        price: 30000,
+        image: "/src/assets/pearl-necklace-6.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 16,
+        name: "Graduated Pearl Classic Necklace",
+        description: "Timeless graduated pearl necklace with lustrous cream pearls, perfect for elegant occasions",
+        price: 27500,
+        image: "/src/assets/pearl-necklace-7.jpg",
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 17,
+        name: "Marble Harmony Duo Bracelet Set",
+        description: "Elegant black and white marble-style beaded bracelets, perfect for a sophisticated yin-yang aesthetic",
+        price: 18000,
+        image: "/src/assets/bracelet-1.jpg",
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 18,
+        name: "Royal Collection Bracelet Set",
+        description: "Premium black onyx beaded bracelets with ornate crown, skull, and cross charms for a bold statement",
+        price: 23000,
+        image: "/src/assets/bracelet-2.jpg",
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 19,
+        name: "Crystal Luxe Bracelet Stack",
+        description: "Luxurious stacked bracelets featuring black onyx, tiger eye, and sparkling crystal accents",
+        price: 25000,
+        image: "/src/assets/bracelet-3.jpg",
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 20,
+        name: "Emperor's Collection Bracelet Set",
+        description: "Multiple stacked bracelets with tiger eye, lava stone beads, and detailed metal charms including crown and cross",
+        price: 28500,
+        image: "/src/assets/bracelet-4.jpg",
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 21,
+        name: "Tiger Eye Classic Bracelet",
+        description: "Timeless black onyx and tiger eye beaded bracelet with silver accents for everyday elegance",
+        price: 17000,
+        image: "/src/assets/bracelet-5.jpg",
+        category: "Bracelets",
+        featured: true
+    }
+];
+
+export const categories = [
+    "All",
+    "Bracelets",
+    "Necklaces",
+    "Earrings",
+    "Anklets"
+];
+
+export default products;
