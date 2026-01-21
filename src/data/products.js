@@ -19,15 +19,7 @@ import bracelet5 from '../assets/bracelet-5.jpg';
 export const products = [
 
 
-    {
-        id: 3,
-        name: "Earth Tone Earrings",
-        description: "Natural stone beads in warm terracotta and sage tones",
-        price: 15000,
-        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
-        category: "Earrings",
-        featured: true
-    },
+
     {
         id: 4,
         name: "Golden Hour Anklet",
