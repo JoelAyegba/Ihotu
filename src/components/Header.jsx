@@ -24,8 +24,8 @@ const Header = () => {
             <div className="container">
                 <nav className="nav">
                     <Link to="/" className="logo">
-                        <img src="/logo.png" alt="Ihotu Aura" className="logo-image" />
-                        <span className="logo-text">Ihotu Aura</span>
+                        <img src="/logo.png" alt="IhotuAura" className="logo-image" />
+                        <span className="logo-text">IhotuAura</span>
                     </Link>
 
                     <button

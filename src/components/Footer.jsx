@@ -17,8 +17,8 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-section">
                         <h3 className="footer-logo">
-                            <img src="/logo.png" alt="Ihotu Aura" className="footer-logo-image" />
-                            Ihotu Aura
+                            <img src="/logo.png" alt="IhotuAura" className="footer-logo-image" />
+                            IhotuAura
                         </h3>
                         <p className="footer-description">
                             Handcrafted bead jewelry made with love and care.
@@ -75,7 +75,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {currentYear} Ihotu Aura. All rights reserved. Handcrafted with ❤️</p>
+                    <p>&copy; {currentYear} IhotuAura. All rights reserved. Handcrafted with ❤️</p>
                 </div>
             </div>
         </footer>
