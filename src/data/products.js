@@ -10,6 +10,16 @@ import bracelet2 from '../assets/bracelet-2.jpg';
 import bracelet3 from '../assets/bracelet-3.jpg';
 import bracelet4 from '../assets/bracelet-4.jpg';
 import bracelet5 from '../assets/bracelet-5.jpg';
+import bag1 from '../assets/bag-1.jpg';
+import bag2 from '../assets/bag-2.jpg';
+import bag3 from '../assets/bag-3.jpg';
+import bag4 from '../assets/bag-4.jpg';
+import bag5 from '../assets/bag-5.jpg';
+import bag6 from '../assets/bag-6.jpg';
+import bag7 from '../assets/bag-7.jpg';
+import bag8 from '../assets/bag-8.jpg';
+import bag9 from '../assets/bag-9.jpg';
+import bag10 from '../assets/bag-10.jpg';
 
 /**
  * Sample Product Data
@@ -157,6 +167,96 @@ export const products = [
         image: bracelet5,
         category: "Bracelets",
         featured: true
+    },
+    {
+        id: 22,
+        name: "Euphoria Spiky Mini Bag",
+        description: "Unique high-definition spiky crystal design in vibrant neon tones.",
+        price: 45000,
+        image: bag1,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 23,
+        name: "Emerald & Fuchsia Bead Bag",
+        description: "Handcrafted vibrant round bead construction for a bold fashion statement.",
+        price: 38000,
+        image: bag2,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 24,
+        name: "Ruby Red Tassel Bucket Bag",
+        description: "Elegant circular design featuring decorative long silk tassels.",
+        price: 42000,
+        image: bag3,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 25,
+        name: "Amethyst Spike Statement Bag",
+        description: "Bold purple crystal-spiked handbag for the ultimate luxury feel.",
+        price: 48000,
+        image: bag4,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 26,
+        name: "Vintage Bronze & Onyx Bag",
+        description: "Sophisticated circular bag with polished metallic handles.",
+        price: 35000,
+        image: bag5,
+        category: "Bags",
+        featured: false
+    },
+    {
+        id: 27,
+        name: "Crimson Rose Crystal Clutch",
+        description: "Luxurious red faceted crystal bag with a unique spherical shape.",
+        price: 46000,
+        image: bag6,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 28,
+        name: "Prism Spike Tote Trio",
+        description: "Modern sharp-edged crystal bags in deep, rich primary colors.",
+        price: 52000,
+        image: bag7,
+        category: "Bags",
+        featured: false
+    },
+    {
+        id: 29,
+        name: "Starlight Pearl & Silk Bag",
+        description: "Black lustrous pearls with a silk drawstring interior and elegant tassels.",
+        price: 39000,
+        image: bag8,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 30,
+        name: "Golden Zebra Bead Bag",
+        description: "Stunning gold and white striped bead pattern on a classic structure.",
+        price: 44000,
+        image: bag9,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 31,
+        name: "Red Garnet Crystal Pouch",
+        description: "Intricate faceted garnet crystal bag with round metallic handles.",
+        price: 47000,
+        image: bag10,
+        category: "Bags",
+        featured: true
     }
 ];
 
@@ -165,7 +265,8 @@ export const categories = [
     "Bracelets",
     "Necklaces",
     "Earrings",
-    "Anklets"
+    "Anklets",
+    "Bags"
 ];
 
 export default products;
