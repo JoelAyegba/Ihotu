@@ -93,15 +93,7 @@ export const products = [
         category: "Bracelets",
         featured: true
     },
-    {
-        id: 8,
-        name: "Forest Whisper Earrings",
-        description: "Green jade beads with wooden accents",
-        price: 16000,
-        image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
-        category: "Earrings",
-        featured: false
-    },
+
     {
         id: 24,
         name: "Ruby Red Tassel Bucket Bag",
