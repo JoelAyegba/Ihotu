@@ -57,15 +57,7 @@ export const products = [
         category: "Bracelets",
         featured: true
     },
-    {
-        id: 4,
-        name: "Golden Hour Anklet",
-        description: "Delicate gold-plated beads with tiny charms",
-        price: 16500,
-        image: "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=80",
-        category: "Anklets",
-        featured: false
-    },
+
     {
         id: 23,
         name: "Emerald & Fuchsia Bead Bag",
@@ -220,15 +212,7 @@ export const products = [
         category: "Bags",
         featured: true
     },
-    {
-        id: 6,
-        name: "Rose Garden Necklace",
-        description: "Pink quartz and rose gold beads in a romantic design",
-        price: 24000,
-        image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
-        category: "Necklaces",
-        featured: true
-    },
+
     {
         id: 30,
         name: "Golden Zebra Bead Bag",

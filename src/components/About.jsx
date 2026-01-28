@@ -6,13 +6,6 @@ const About = () => {
         <section className="about section" id="about">
             <div className="container">
                 <div className="about-content">
-                    <div className="about-image animate-slide-left">
-                        <img
-                            src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?w=800&q=80"
-                            alt="Artisan crafting beads"
-                        />
-                    </div>
-
                     <div className="about-text animate-slide-right">
                         <h2 className="section-title">About IHOTUAURA</h2>
                         <p>
@@ -35,7 +28,7 @@ const About = () => {
                             style meets soul.
                         </p>
                         <p className="highlight-text">
-                            Wear your aura. Share your story. Shine with IHOTUAURA.
+                            Wear Art. Wear Luxury. Wear Ihotuaura
                         </p>
 
                         <div className="about-features">
