@@ -39,6 +39,15 @@ import goldCubeMultiStrand from '../assets/gold-cube-multi-strand.jpg';
 
 export const products = [
     {
+        id: 22,
+        name: "Euphoria Spiky Mini Bag",
+        description: "Unique high-definition spiky crystal design in vibrant neon tones.",
+        price: 45000,
+        image: bag1,
+        category: "Bags",
+        featured: true
+    },
+    {
         id: 32,
         name: "Eternal Coral Chunky Set",
         description: "Handcrafted chunky red coral beads with elegant gold accents, reflecting heritage and luxury.",
@@ -48,38 +57,11 @@ export const products = [
         featured: true
     },
     {
-        id: 33,
-        name: "Regal Coral Cylindrical Set",
-        description: "Polished cylindrical coral beads in a timeless design, perfect for bold statements.",
-        price: 48000,
-        image: coralCylindricalSet,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 34,
-        name: "Midnight Onyx Classic Set",
-        description: "Lustrous black onyx beads for a sophisticated, bold look that elevates any attire.",
-        price: 45000,
-        image: blackOnyxSet,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 35,
-        name: "Imperial Double Strand Coral Set",
-        description: "Luxurious double-layered coral beads with a matching bracelet for a complete royal feel.",
-        price: 65000,
-        image: coralDoubleStrandSet,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 36,
-        name: "Earth's Eye Tiger Eye Necklace",
-        description: "Stunning tiger eye beads reflecting natural warmth and strength, a true artisan masterpiece.",
-        price: 42000,
-        image: tigerEyeNecklace,
+        id: 10,
+        name: "Classic Pearl Elegance Necklace",
+        description: "Timeless white pearl necklace with elegant graduated design, perfect for any occasion",
+        price: 28000,
+        image: pearlNecklace1,
         category: "Necklaces",
         featured: true
     },
@@ -93,11 +75,101 @@ export const products = [
         featured: true
     },
     {
+        id: 17,
+        name: "Marble Harmony Duo Bracelet Set",
+        description: "Elegant black and white marble-style beaded bracelets, perfect for a sophisticated yin-yang aesthetic",
+        price: 18000,
+        image: bracelet1,
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 33,
+        name: "Regal Coral Cylindrical Set",
+        description: "Polished cylindrical coral beads in a timeless design, perfect for bold statements.",
+        price: 48000,
+        image: coralCylindricalSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 23,
+        name: "Emerald & Fuchsia Bead Bag",
+        description: "Handcrafted vibrant round bead construction for a bold fashion statement.",
+        price: 38000,
+        image: bag2,
+        category: "Bags",
+        featured: true
+    },
+    {
         id: 38,
         name: "Shadow Horn Black Onyx Necklace",
         description: "Striking black onyx beads with a dramatic horn pendant, perfect for a powerful, edgy look.",
         price: 58000,
         image: blackOnyxHornPendant,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 11,
+        name: "Pearl Trio Collection",
+        description: "Luxurious pearl jewelry set featuring necklace, bracelet, and earrings in warm cream tones",
+        price: 30000,
+        image: pearlNecklace2,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 34,
+        name: "Midnight Onyx Classic Set",
+        description: "Lustrous black onyx beads for a sophisticated, bold look that elevates any attire.",
+        price: 45000,
+        image: blackOnyxSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 18,
+        name: "Royal Collection Bracelet Set",
+        description: "Premium black onyx beaded bracelets with ornate crown, skull, and cross charms for a bold statement",
+        price: 23000,
+        image: bracelet2,
+        category: "Bracelets",
+        featured: true
+    },
+    {
+        id: 40,
+        name: "Midnight Cube Multi-Strand Set",
+        description: "Modern black cube beads in multiple strands for a contemporary, geometric aesthetic.",
+        price: 62000,
+        image: blackCubeMultiStrand,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 24,
+        name: "Ruby Red Tassel Bucket Bag",
+        description: "Elegant circular design featuring decorative long silk tassels.",
+        price: 42000,
+        image: bag3,
+        category: "Bags",
+        featured: true
+    },
+    {
+        id: 35,
+        name: "Imperial Double Strand Coral Set",
+        description: "Luxurious double-layered coral beads with a matching bracelet for a complete royal feel.",
+        price: 65000,
+        image: coralDoubleStrandSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 12,
+        name: "Layered Pearl Statement Necklace",
+        description: "Multi-strand pearl necklace with varying bead sizes for a sophisticated layered look",
+        price: 29000,
+        image: pearlNecklace3,
         category: "Necklaces",
         featured: true
     },
@@ -111,101 +183,6 @@ export const products = [
         featured: true
     },
     {
-        id: 40,
-        name: "Midnight Cube Multi-Strand Set",
-        description: "Modern black cube beads in multiple strands for a contemporary, geometric aesthetic.",
-        price: 62000,
-        image: blackCubeMultiStrand,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 41,
-        name: "Golden Cube Luxury Multi-Strand Set",
-        description: "Radiant gold cube beads in cascading layers with matching bracelet, exuding opulence and style.",
-        price: 75000,
-        image: goldCubeMultiStrand,
-        category: "Necklaces",
-        featured: true
-    },
-
-
-
-    {
-        id: 22,
-        name: "Euphoria Spiky Mini Bag",
-        description: "Unique high-definition spiky crystal design in vibrant neon tones.",
-        price: 45000,
-        image: bag1,
-        category: "Bags",
-        featured: true
-    },
-    {
-        id: 10,
-        name: "Classic Pearl Elegance Necklace",
-        description: "Timeless white pearl necklace with elegant graduated design, perfect for any occasion",
-        price: 28000,
-        image: pearlNecklace1,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 17,
-        name: "Marble Harmony Duo Bracelet Set",
-        description: "Elegant black and white marble-style beaded bracelets, perfect for a sophisticated yin-yang aesthetic",
-        price: 18000,
-        image: bracelet1,
-        category: "Bracelets",
-        featured: true
-    },
-
-    {
-        id: 23,
-        name: "Emerald & Fuchsia Bead Bag",
-        description: "Handcrafted vibrant round bead construction for a bold fashion statement.",
-        price: 38000,
-        image: bag2,
-        category: "Bags",
-        featured: true
-    },
-    {
-        id: 11,
-        name: "Pearl Trio Collection",
-        description: "Luxurious pearl jewelry set featuring necklace, bracelet, and earrings in warm cream tones",
-        price: 30000,
-        image: pearlNecklace2,
-        category: "Necklaces",
-        featured: true
-    },
-    {
-        id: 18,
-        name: "Royal Collection Bracelet Set",
-        description: "Premium black onyx beaded bracelets with ornate crown, skull, and cross charms for a bold statement",
-        price: 23000,
-        image: bracelet2,
-        category: "Bracelets",
-        featured: true
-    },
-
-    {
-        id: 24,
-        name: "Ruby Red Tassel Bucket Bag",
-        description: "Elegant circular design featuring decorative long silk tassels.",
-        price: 42000,
-        image: bag3,
-        category: "Bags",
-        featured: true
-    },
-    {
-        id: 12,
-        name: "Layered Pearl Statement Necklace",
-        description: "Multi-strand pearl necklace with varying bead sizes for a sophisticated layered look",
-        price: 29000,
-        image: pearlNecklace3,
-        category: "Necklaces",
-        featured: true
-    },
-    {
         id: 19,
         name: "Crystal Luxe Bracelet Stack",
         description: "Luxurious stacked bracelets featuring black onyx, tiger eye, and sparkling crystal accents",
@@ -215,12 +192,30 @@ export const products = [
         featured: true
     },
     {
+        id: 36,
+        name: "Earth's Eye Tiger Eye Necklace",
+        description: "Stunning tiger eye beads reflecting natural warmth and strength, a true artisan masterpiece.",
+        price: 42000,
+        image: tigerEyeNecklace,
+        category: "Necklaces",
+        featured: true
+    },
+    {
         id: 25,
         name: "Amethyst Spike Statement Bag",
         description: "Bold purple crystal-spiked handbag for the ultimate luxury feel.",
         price: 48000,
         image: bag4,
         category: "Bags",
+        featured: true
+    },
+    {
+        id: 41,
+        name: "Golden Cube Luxury Multi-Strand Set",
+        description: "Radiant gold cube beads in cascading layers with matching bracelet, exuding opulence and style.",
+        price: 75000,
+        image: goldCubeMultiStrand,
+        category: "Necklaces",
         featured: true
     },
     {
