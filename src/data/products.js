@@ -26,6 +26,11 @@ import coralCylindricalSet from '../assets/coral-cylindrical-set.jpg';
 import blackOnyxSet from '../assets/black-onyx-set.jpg';
 import coralDoubleStrandSet from '../assets/coral-double-strand-set.jpg';
 import tigerEyeNecklace from '../assets/tiger-eye-necklace.jpg';
+import tigerEyeDoubleStrand from '../assets/tiger-eye-double-strand.jpg';
+import blackOnyxHornPendant from '../assets/black-onyx-horn-pendant.jpg';
+import blackOnyxTripleStrand from '../assets/black-onyx-triple-strand.jpg';
+import blackCubeMultiStrand from '../assets/black-cube-multi-strand.jpg';
+import goldCubeMultiStrand from '../assets/gold-cube-multi-strand.jpg';
 
 /**
  * Sample Product Data
@@ -75,6 +80,51 @@ export const products = [
         description: "Stunning tiger eye beads reflecting natural warmth and strength, a true artisan masterpiece.",
         price: 42000,
         image: tigerEyeNecklace,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 37,
+        name: "Tiger's Glow Double Strand Necklace",
+        description: "Elegant double-layered tiger eye beads with rich golden-brown tones for a bold, earthy statement.",
+        price: 52000,
+        image: tigerEyeDoubleStrand,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 38,
+        name: "Shadow Horn Black Onyx Necklace",
+        description: "Striking black onyx beads with a dramatic horn pendant, perfect for a powerful, edgy look.",
+        price: 58000,
+        image: blackOnyxHornPendant,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 39,
+        name: "Obsidian Triple Strand Necklace",
+        description: "Luxurious triple-layered black onyx beads creating a sophisticated, timeless elegance.",
+        price: 68000,
+        image: blackOnyxTripleStrand,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 40,
+        name: "Midnight Cube Multi-Strand Set",
+        description: "Modern black cube beads in multiple strands for a contemporary, geometric aesthetic.",
+        price: 62000,
+        image: blackCubeMultiStrand,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 41,
+        name: "Golden Cube Luxury Multi-Strand Set",
+        description: "Radiant gold cube beads in cascading layers with matching bracelet, exuding opulence and style.",
+        price: 75000,
+        image: goldCubeMultiStrand,
         category: "Necklaces",
         featured: true
     },
