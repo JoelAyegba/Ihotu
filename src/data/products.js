@@ -21,12 +21,63 @@ import bag8 from '../assets/bag-8.jpg';
 import bag9 from '../assets/bag-9.jpg';
 import bag10 from '../assets/bag-10.jpg';
 
+import coralChunkySet from '../assets/coral-chunky-set.jpg';
+import coralCylindricalSet from '../assets/coral-cylindrical-set.jpg';
+import blackOnyxSet from '../assets/black-onyx-set.jpg';
+import coralDoubleStrandSet from '../assets/coral-double-strand-set.jpg';
+import tigerEyeNecklace from '../assets/tiger-eye-necklace.jpg';
+
 /**
  * Sample Product Data
  * Replace with your actual product information
  */
 
 export const products = [
+    {
+        id: 32,
+        name: "Eternal Coral Chunky Set",
+        description: "Handcrafted chunky red coral beads with elegant gold accents, reflecting heritage and luxury.",
+        price: 55000,
+        image: coralChunkySet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 33,
+        name: "Regal Coral Cylindrical Set",
+        description: "Polished cylindrical coral beads in a timeless design, perfect for bold statements.",
+        price: 48000,
+        image: coralCylindricalSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 34,
+        name: "Midnight Onyx Classic Set",
+        description: "Lustrous black onyx beads for a sophisticated, bold look that elevates any attire.",
+        price: 45000,
+        image: blackOnyxSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 35,
+        name: "Imperial Double Strand Coral Set",
+        description: "Luxurious double-layered coral beads with a matching bracelet for a complete royal feel.",
+        price: 65000,
+        image: coralDoubleStrandSet,
+        category: "Necklaces",
+        featured: true
+    },
+    {
+        id: 36,
+        name: "Earth's Eye Tiger Eye Necklace",
+        description: "Stunning tiger eye beads reflecting natural warmth and strength, a true artisan masterpiece.",
+        price: 42000,
+        image: tigerEyeNecklace,
+        category: "Necklaces",
+        featured: true
+    },
 
 
 
