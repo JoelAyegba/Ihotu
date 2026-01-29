@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImage from '../assets/about-new.jpg';
 import './About.css';
 
 const About = () => {
@@ -6,6 +7,13 @@ const About = () => {
         <section className="about section" id="about">
             <div className="container">
                 <div className="about-content">
+                    <div className="about-image animate-slide-left">
+                        <img
+                            src={aboutImage}
+                            alt="Artisan crafting beads"
+                        />
+                    </div>
+
                     <div className="about-text animate-slide-right">
                         <h2 className="section-title">About IHOTUAURA</h2>
                         <p>
